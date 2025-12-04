@@ -11,10 +11,12 @@ agent_options:
   path: ./lib/agent-options.yml
 controls: # This cannot be set here and in no-team.yml
 org_settings:
+  fleet_desktop:
+    transparency_url: catoftheday
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: zohra
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
